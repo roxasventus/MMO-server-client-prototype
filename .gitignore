@@ -104,3 +104,98 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# =========================================================
+# Environment / Secrets
+# =========================================================
+.env
+*.env
+!.env.example
+
+# AWS / SSH / Private Keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+
+# Logs
+*.log
+server.log
+nohup.out
+
+# =========================================================
+# Visual Studio / C++ Server
+# =========================================================
+.vs/
+.vscode/
+.idea/
+
+# Build outputs
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+build/
+out/
+
+# Compiled binaries
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+*.o
+*.obj
+*.ilk
+*.pdb
+*.idb
+*.ipch
+*.iobj
+*.ipdb
+
+# Visual Studio database/cache
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.sdf
+*.cache
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+
+
+# =========================================================
+# CMake
+# =========================================================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+
+# =========================================================
+# Database
+# =========================================================
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.sql.gz
+
+# 단, 스키마 파일은 올릴 수 있게 허용
+!schema.sql
+
+
+# =========================================================
+# OS files
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
